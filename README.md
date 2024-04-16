@@ -12,13 +12,13 @@ N/A
 
 Given an employee payroll tracker
 when I click the "Add employee" button
-I am presented with a series of prompts asking for first name, last name, and salary
+I am presented with a series of prompts asking for first name, last name, and salary.
 When I finish adding an employee
-I am prompted to continue or cancel
+I am prompted to continue or cancel.
 When I choose to continue
-I am prompted to add a new employee
+I am prompted to add a new employee.
 When I choose to cancel
-my employee data is displayed on the page sorted alphabetically by last name, and the console shows computed and aggregated data
+my employee data is displayed on the page sorted alphabetically by last name, and the console shows computed and aggregated data.
 
 
 ## Credits
