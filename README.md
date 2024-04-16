@@ -2,22 +2,11 @@
 
 ## Description
 
-AS A payroll manager
-I WANT AN employee payroll tracker
-SO THAT I can see my employees' payroll data and properly budget for the company
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+AS a payroll manager, I want a payroll tracker of all the emplyees so I can keep track of their payroll data and properly budget for the company.
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+N/A
 
 ## Usage
 
