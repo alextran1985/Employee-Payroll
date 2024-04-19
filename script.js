@@ -14,22 +14,37 @@ const collectEmployees = function() {
     lastName:  lastName,
     salary: salary,
   }
-
-  emplyees.push(employee);
+  employees.push(employee);
 
   return employees
 }
+// While loop
+//   let employeeArray = 0;
+//   while (employeeArray < employees.length){
+//     employees++;
+//   }
+// console.log(employees);
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
-}
 
+//   let averageSalary = 0
+//   for (let i = 0; i < employeesArray.length; i++){
+//     averageSalary += employeesArray[i].salary;
+//   }
+// const average = averageSalary / employeesArray.length
+// return average
+// }
+// console.log(averageSalary);
+}
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
-  // TODO: Select and display a random employee
+  // const index = Math.floor(Math.random() * employeesArray.length);
 }
-
+  
+  // TODO: Select and display a random employee
+  
 /*
   ====================
   STARTER CODE
@@ -62,7 +77,7 @@ const displayEmployees = function(employeesArray) {
     // Format the salary as currency
     salaryCell.textContent = currentEmployee.salary.toLocaleString("en-US",{
       style:"currency",
-      currency:"USD"
+      currency:"USD",
     });
 
     newTableRow.append(salaryCell);
