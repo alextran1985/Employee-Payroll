@@ -26,7 +26,7 @@ my employee data is displayed on the page sorted alphabetically by last name, an
 
 ## Screenshot
 
-![Alt text](Employee-Payroll/Screenshot 2024-04-22 at 3.18.23 AM.png)
+![Alt text](Screenshot 2024-04-22 at 3.18.23 AM.png)
 
 ## Credits
 
