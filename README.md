@@ -26,15 +26,11 @@ my employee data is displayed on the page sorted alphabetically by last name, an
 
 ## Screenshot
 
-![Alt text](/Users/alextran/Desktop/Employee-Payroll/Screenshot 2024-04-22 at 3.18.23 AM.png)
+![Alt text](Employee-Payroll/Screenshot 2024-04-22 at 3.18.23 AM.png)
+
 ## Credits
 
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+N/A
 
 ## License
 
