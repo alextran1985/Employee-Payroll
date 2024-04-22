@@ -31,9 +31,9 @@ const collectEmployees = function () {
   const average = displayAverageSalary(employees);
   const employeeName = getRandomEmployee(employees);
   console.log(
-    `The average between our ${employees.length} employees salary is ${average}`
+    `The average between our ${employees.length} employees salary is ${average}.`
   );
-  console.log(`Congraulation to ${employeeName}, our random weekly winner`);
+  console.log(`Congratulation to ${employeeName}, our random weekly winner!`);
   return employees;
 };
 // Display the average salary
