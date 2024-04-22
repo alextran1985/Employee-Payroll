@@ -20,8 +20,15 @@ I am prompted to add a new employee.
 When I choose to cancel
 my employee data is displayed on the page sorted alphabetically by last name, and the console shows computed and aggregated data.
 
+## Link
 
+[Link text](https://website-name.com)https://alextran1985.github.io/Employee-Payroll/
+
+## Screenshot
+
+![Alt text](/Users/alextran/Desktop/Employee-Payroll/Screenshot 2024-04-22 at 3.18.23 AM.png)
 ## Credits
+
 
 List your collaborators, if any, with links to their GitHub profiles.
 
