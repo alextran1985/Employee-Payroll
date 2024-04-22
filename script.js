@@ -10,8 +10,14 @@ const collectEmployees = function () {
   while (isAddingEmployee) {
     const firstName = prompt("Enter employee's first name");
     const lastName = prompt("Enter employee's last name");
-    const salary = prompt("Enter employee's salary");
-    const userInput = prompt("Would you like to add Employee");
+    let salary = prompt("Enter employee's salary");
+    if (isNaN(salary)) {
+      salary = 0;
+    } else {
+      salary = Number(salary);
+    }
+
+    const userInput = prompt("Would you like to add another Employee");
     if (userInput === "no") {
       isAddingEmployee = false;
     }
@@ -22,26 +28,35 @@ const collectEmployees = function () {
     };
     employees.push(employee);
   }
+  const average = displayAverageSalary(employees);
+  const employeeName = getRandomEmployee(employees);
+  console.log(
+    `The average between our ${employees.length} employees salary is ${average}`
+  );
+  console.log(`Congraulation to ${employeeName}, our random weekly winner`);
   return employees;
 };
-
-
-
 // Display the average salary
+
 const displayAverageSalary = function (employeesArray) {
   // TODO: Calculate and display the average salary
-  //   let averageSalary = 0
-  //   for (let i = 0; i < employeesArray.length; i++){
-  //     averageSalary += employeesArray[i].salary;
-  //   }
-  // const average = averageSalary / employeesArray.length
-  // return average
-  // }
-  // console.log(averageSalary);
+  let sum = 0;
+  for (let i = 0; i < employeesArray.length; i++) {
+    sum += employeesArray[i].salary;
+  }
+  const average = sum / employeesArray.length;
+
+  return average;
 };
+
 // Select a random employee
 const getRandomEmployee = function (employeesArray) {
-  // const index = Math.floor(Math.random() * employeesArray.length);
+  const randomindex = Math.floor(Math.random() * employeesArray.length);
+  return (
+    employeesArray[randomindex].firstName +
+    " " +
+    employeesArray[randomindex].lastName
+  );
 };
 
 // TODO: Select and display a random employee
