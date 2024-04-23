@@ -26,8 +26,7 @@ my employee data is displayed on the page sorted alphabetically by last name, an
 
 ## Screenshot
 
-![Alt text](http://full/path/to/img.jpg "Optional title")
-
+![Alt text](Screenshot.jpg?raw=true "Optional Title")
 ## Credits
 
 N/A
