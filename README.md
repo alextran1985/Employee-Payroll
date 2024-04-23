@@ -26,7 +26,7 @@ my employee data is displayed on the page sorted alphabetically by last name, an
 
 ## Screenshot
 
-![Screenshot](/Users/alextran/Desktop/Employee-Payroll/Screenshot.png)
+![Screenshot](/Employee-Payroll/Screenshot.png)
 ## Credits
 
 N/A
